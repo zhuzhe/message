@@ -1,0 +1,14 @@
+# SQLite version 3.x
+#   gem install sqlite3
+development:
+  adapter: mysql
+  database: messages
+  username: root
+  password: monkey 
+                        
+
+production:
+  adapter: mysql
+  database: messages
+  username: root
+  password: monkey
